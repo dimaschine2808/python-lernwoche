@@ -36,6 +36,38 @@ Die „Grammatik" einer Programmiersprache – die Regeln, wie Code geschrieben 
 **error** (Fehler)
 Eine Fehlermeldung. Kein Grund zur Panik – sie sagt dir, was nicht stimmt und wo.
 
+
+## Tag 3 
+
+**condition** (Bedingung)
+
+Eine Prüfung, die True oder False ergibt. Beispiel: ,,alter >= 18" 
+
+**and / or** (und / oder)
+Verbindet zwei Bedingungen. 'and' = beide muessen zutreffen, 'or' = eine reicht.
+
+**modulo** (Restwert, Zeichen '%')
+Gibst den Rest einer Division zurück. '7 % 2' ergibt '1'. Damit prüft man gerade/ungerade. 
+
+**indentation**  (Einddrückung)
+Die Leerzeichen am Zeilenanfangen. In Python Pflicht - sie zeigen, was zu einem 'if' gehört. 
+
+**ValueError** (Wertfehler)
+Fehlermeldung, wenn ein Wert nicht ins erwartete Format passt - z. B. Text, der keine Zahl ist 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## Rund um Git & GitHub
