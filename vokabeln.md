@@ -57,6 +57,32 @@ Fehlermeldung, wenn ein Wert nicht ins erwartete Format passt - z. B. Text, der 
 
 
 
+## Tag 4 
+
+**loop** (Schleife) 
+Wiederholt einen Codeblock mehrmahls, ohne dass man ihn kopieren muss. 
+
+**for loop** (Zählschleife) 
+Schleife fuer den Fall, dass man weiss, wie oft wiederholt werden soll. 
+
+**while loop** (Bedingungsschleife)
+Läuft so lange, wie eine Bedingung wahr ist. Beispiel: 'while zahl >= 0:'
+
+**range** (Bereich)
+Erzeugt eine Zahlenfolge für Schleifen. ´range (1, 11)´ gibt 1 bis 10 - der Endweder ist immer ausgeschlossen!
+Mit drittem Wert auch rückwärts: ´range(10, -1, -1)´ = Start, Ende, Schrittweise.
+
+**iteration** (Durchlauf)
+Ein einzelner Durchgang einer Schleife. Bei 'range(5)' gibt es fünf iterationen. 
+
+**counter variable** (Zählvariable)
+Die Variable, die bei jedem Durchlauf den nächsten Wer bekommt - meist 'i' genannt. 
+
+**infinte loop** (Endlosschleife) 
+Eine Schleife, ddie nie endet, weil sich ddie Bedingung nie ändert. Abbrechen mit `Strg + C`. 
+
+
+
 
 
 
