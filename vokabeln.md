@@ -82,9 +82,25 @@ Die Variable, die bei jedem Durchlauf den nächsten Wer bekommt - meist 'i' gena
 Eine Schleife, ddie nie endet, weil sich ddie Bedingung nie ändert. Abbrechen mit `Strg + C`. 
 
 
+## Tag 5 
 
+**list**  (Liste)
+Speichert mehrere Werte in einer Variable. Beispiel: '["Matrix, "inception"]'
 
+**index** (Inex / Position)
+Die Position eines Elements. Beginnt bei 0! 'liste[0]' ist das erste Element, 'liste[-1]' das letzte. 
 
+**append** (anhängen)
+Fuegt ein Element hinten an die Liste an. Beispiel: 'filme.append("Heat")'
+
+**len** (lenght / Laenge)
+Gibt die Anzahl er Elemente zurueck. Beispiel: 'len(filme)'
+
+**NameError** (Namensfehler)
+Fehlermeldung, wenn Python eine Variable nicht erkennt - meist Tippfehler oder falsche Gross-/Kleinschreibung.\
+
+**case-sensitive** (Gross/Kleinschreibung beachtend)
+Python unterscheidet strikt: 'Filme', 'filme' und 'FILME' sind verschiedene Variablen. 
 
 
 
