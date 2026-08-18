@@ -115,6 +115,56 @@ Python unterscheidet strikt: 'Filme', 'filme' und 'FILME' sind verschiedene Vari
 
 ---
 
+## Tag 6
+
+**dictionary / dict** (Wörterbuch)
+Speichert Werte als Schlüssel-Wert-Paare, nicht nach Position wie eine Liste. Beispiel: `vokabeln = {"Blume": "Flower"}`
+
+**key** (Schlüssel)
+Der Name, über den man einen Wert im Dictionary findet. Bei `vokabeln["Blume"]` ist `"Blume"` der Key.
+
+**value** (Wert)
+Der Wert, der zu einem Key gehört. Bei `vokabeln["Blume"]` ist `"Flower"` der Value.
+
+**.items()** (Einträge)
+Gibt alle Schlüssel-Wert-Paare eines Dictionarys zurück, z. B. für `for key, value in vokabeln.items():`
+
+**in** (Mitgliedschaftstest)
+Prüft, ob etwas enthalten ist. Bei Dictionarys prüft `wort in vokabeln` nur die Keys, nicht die Values.
+
+
+## Tag 7
+
+**break** (abbrechen)
+Beendet eine Schleife sofort, egal ob die eigentliche Bedingung noch erfüllt wäre. Meist zusammen mit `if` benutzt.
+
+**while True** (Endlos-Schleife mit Ausstieg)
+Läuft absichtlich für immer, bis irgendwo im Code ein `break` ausgeführt wird. Häufiges Muster für "frag immer wieder, bis der Nutzer aufhören will".
+
+**strip()** (Leerzeichen entfernen)
+Entfernt Leerzeichen (und Zeilenumbrüche) am Anfang und Ende eines Strings. Nützlich bei Vergleichen mit `input()`, weil ein Tippfehler-Leerzeichen sonst den Vergleich scheitern lässt.
+
+**insert** (einfügen)
+Fügt ein Element an einer bestimmten Position in die Liste ein, nicht nur ans Ende wie `append`. Beispiel: `liste.insert(1, "Kaffee")`
+
+**remove** (entfernen)
+Löscht das erste Element mit einem bestimmten Wert aus der Liste. Beispiel: `liste.remove("Milch")`
+
+**pop** (herausnehmen)
+Entfernt das letzte Element (oder eins an einem Index) und gibt es gleichzeitig zurück. Beispiel: `letztes = liste.pop()`
+
+**sort / reverse** (sortieren / umkehren)
+`sort()` sortiert die Liste aufsteigend (mit `reverse=True` absteigend), `reverse()` dreht die Reihenfolge einfach um, ohne zu sortieren.
+
+**count** (zählen)
+Gibt zurück, wie oft ein Wert in der Liste vorkommt. Beispiel: `zahlen.count(3)`
+
+**slicing** (Ausschneiden)
+Holt sich einen Teilbereich einer Liste über `[start:stop:schritt]`. Beispiel: `zahlen[:3]` = erste drei Elemente.
+
+
+---
+
 ## Rund um Git & GitHub
 
 **repository / repo** (Repository)
