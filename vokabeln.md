@@ -163,6 +163,30 @@ Gibt zurück, wie oft ein Wert in der Liste vorkommt. Beispiel: `zahlen.count(3)
 Holt sich einen Teilbereich einer Liste über `[start:stop:schritt]`. Beispiel: `zahlen[:3]` = erste drei Elemente.
 
 
+## Tag 8
+
+**def** (Funktion definieren)
+Leitet die Definition einer eigenen Funktion ein. Beispiel: `def ist_gerade(zahl):`
+
+**argument** (Argument)
+Der konkrete Wert, der beim Aufruf an eine Funktion übergeben wird. Bei `ist_gerade(4)` ist `4` das Argument; `zahl` in der Funktionsdefinition ist der Parameter.
+
+**boolean / bool** (Wahrheitswert)
+Ein Wert, der nur `True` oder `False` sein kann. Beispiel: `zahl % 2 == 0` liefert einen Boolean.
+
+
+## Tag 9
+
+**nested loop** (verschachtelte Schleife)
+Eine Schleife innerhalb einer anderen Schleife. Die innere Schleife läuft für jeden Durchgang der äußeren Schleife vollständig durch.
+
+**outer loop / inner loop** (äußere / innere Schleife)
+Die äußere Schleife wählt zum Beispiel eine `gruppe`; die innere Schleife verarbeitet anschließend jede einzelne `zahl` dieser Gruppe.
+
+**nested condition** (verschachtelte Bedingung)
+Ein `if` innerhalb eines anderen `if`. Die innere Bedingung wird nur geprüft, wenn die äußere Bedingung erfüllt ist.
+
+
 ---
 
 ## Rund um Git & GitHub
