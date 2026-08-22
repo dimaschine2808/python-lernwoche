@@ -187,6 +187,27 @@ Die äußere Schleife wählt zum Beispiel eine `gruppe`; die innere Schleife ver
 Ein `if` innerhalb eines anderen `if`. Die innere Bedingung wird nur geprüft, wenn die äußere Bedingung erfüllt ist.
 
 
+## Tag 10
+
+**try** (versuchen)
+Markiert einen Codeblock, in dem ein erwartbarer Fehler auftreten kann. Python versucht, diesen Code normal auszuführen.
+
+**except** (Fehler abfangen)
+Wird ausgeführt, wenn im zugehörigen `try`-Block der angegebene Fehler auftritt. So kann das Programm verständlich reagieren, statt abzustürzen.
+
+**ValueError** (Wertfehler)
+Entsteht zum Beispiel, wenn `int()` einen Text wie `"Hallo"` in eine ganze Zahl umwandeln soll.
+
+**continue** (nächster Durchlauf)
+Bricht nur den aktuellen Schleifendurchlauf ab und beginnt sofort mit dem nächsten. In Tag 10 wird damit nach einer falschen Eingabe erneut gefragt.
+
+**min / max** (Minimum / Maximum)
+`min(liste)` gibt den kleinsten und `max(liste)` den größten Wert einer nicht leeren Liste zurück.
+
+**sum** (Summe)
+Addiert alle Zahlen einer Liste. Zusammen mit `len()` lässt sich damit der Durchschnitt berechnen.
+
+
 ---
 
 ## Rund um Git & GitHub
