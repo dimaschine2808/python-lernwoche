@@ -208,6 +208,93 @@ Bricht nur den aktuellen Schleifendurchlauf ab und beginnt sofort mit dem nächs
 Addiert alle Zahlen einer Liste. Zusammen mit `len()` lässt sich damit der Durchschnitt berechnen.
 
 
+## Tag 11
+
+**file** (Datei)
+Speichert Daten dauerhaft auf einem Datenträger. Anders als Variablen bleibt der Inhalt nach dem Ende des Programms erhalten.
+
+**open()** (Datei öffnen)
+Öffnet eine Datei zum Lesen oder Schreiben. Beispiel: `open("einkaufsliste.txt", "r", encoding="utf-8")`
+
+**with** (Kontextblock)
+Sorgt dafür, dass eine geöffnete Datei nach dem eingerückten Block automatisch wieder geschlossen wird.
+
+**file mode** (Dateimodus)
+Bestimmt, was mit einer Datei geschieht: `"r"` liest, `"w"` überschreibt und `"a"` hängt neuen Inhalt an.
+
+**write()** (schreiben)
+Schreibt einen String in eine geöffnete Datei. Ein Zeilenumbruch muss bei Bedarf mit `"\n"` ergänzt werden.
+
+**readlines()** (Zeilen lesen)
+Liest alle Zeilen einer Datei und gibt sie als Liste von Strings zurück. Die Zeilen enthalten normalerweise noch `"\n"`.
+
+**encoding / UTF-8** (Zeichenkodierung)
+Legt fest, wie Textzeichen gespeichert und gelesen werden. `encoding="utf-8"` unterstützt unter anderem Umlaute zuverlässig.
+
+
+## Tag 12
+
+**key access** (Schlüsselzugriff)
+Ruft einen Dictionary-Wert über seinen Schlüssel ab. Beispiel: `lager["Milch"]`
+
+**dictionary assignment** (Dictionary-Zuweisung)
+Legt einen neuen Schlüssel an oder ersetzt den Wert eines vorhandenen Schlüssels. Beispiel: `lager["Mandeln"] = 4`
+
+**KeyError** (Schlüsselfehler)
+Entsteht beim direkten Zugriff auf einen Schlüssel, der nicht im Dictionary existiert. Eine vorherige Prüfung mit `in` verhindert diesen Fehler.
+
+
+## Tag 13
+
+**get()** (Wert sicher abrufen)
+Liest einen Dictionary-Wert und liefert bei einem fehlenden Schlüssel einen Ersatzwert. Beispiel: `lager.get(produkt, 0)`
+
+**default value** (Standardwert)
+Der Ersatzwert, der benutzt wird, wenn kein passender Eintrag existiert. Bei `lager.get(produkt, 0)` ist `0` der Standardwert.
+
+**+=** (erhöhen und zuweisen)
+Addiert einen Wert und speichert das Ergebnis direkt zurück. `bestand += 4` bedeutet `bestand = bestand + 4`.
+
+**-=** (verringern und zuweisen)
+Zieht einen Wert ab und speichert das Ergebnis direkt zurück. `bestand -= 2` bedeutet `bestand = bestand - 2`.
+
+**comparison / assignment** (Vergleich / Zuweisung)
+`==` prüft, ob zwei Werte gleich sind. `=` weist einen Wert zu; `+=` und `-=` verändern und speichern ihn.
+
+
+## Tag 14
+
+**module / import** (Modul / importieren)
+Ein Modul stellt zusätzliche Funktionen bereit. Mit `import json` werden die JSON-Werkzeuge geladen.
+
+**JSON** (JavaScript Object Notation)
+Ein verbreitetes Textformat für strukturierte Daten. Python-Dictionaries können damit lesbar in einer Datei gespeichert werden.
+
+**json.dump()** (JSON speichern)
+Schreibt Python-Daten in eine geöffnete JSON-Datei. Reihenfolge: `json.dump(daten, datei)` — Inhalt zuerst, Datei danach.
+
+**json.load()** (JSON laden)
+Liest JSON-Daten aus einer geöffneten Datei und erzeugt daraus wieder Python-Daten, zum Beispiel ein Dictionary.
+
+**indent** (Einrückung)
+Formatiert gespeichertes JSON mit Einrückungen. `indent=4` macht die Datei für Menschen leichter lesbar.
+
+**ensure_ascii** (ASCII-Ersetzung steuern)
+Mit `ensure_ascii=False` bleiben Umlaute und andere Unicode-Zeichen in der JSON-Datei direkt lesbar.
+
+**relative path** (relativer Dateipfad)
+Ein Pfad ohne vollständige Laufwerksangabe. Er beginnt im aktuellen Arbeitsordner, nicht automatisch im Ordner der Python-Datei.
+
+**working directory** (Arbeitsordner)
+Der Ordner, von dem aus ein Programm gestartet wird. Bei dir war das `C:\Users\dimik\PythonProjekte`.
+
+**FileNotFoundError** (Datei nicht gefunden)
+Entsteht, wenn Python am angegebenen Pfad keine Datei findet. Bei relativen Pfaden sollte zuerst der Arbeitsordner geprüft werden.
+
+**persistence** (dauerhafte Speicherung)
+Bedeutet, dass Änderungen nach dem Programmende erhalten bleiben. Dafür gilt hier die Reihenfolge: laden, verändern, speichern.
+
+
 ---
 
 ## Rund um Git & GitHub
@@ -235,7 +322,7 @@ Git-Funktion, die zeigt, wer welche Zeile geschrieben hat. (Ja, GitHub übersetz
 
 ---
 
-## Kommt bald (Tag 3–7)
+## Weitere Grundbegriffe zum Nachschlagen
 
 **condition** (Bedingung)
 Eine Ja/Nein-Prüfung. Beispiel: „Ist die Zahl größer als 10?"
