@@ -1,3 +1,5 @@
+# Tag 18: Auswahlmöglichkeiten mit einem einfachen Menü steuern
+
 print("--- Lagerverwaltung ---")
 print("1 - Lager anzeigen")
 print("2 - Produkt hinzufügen")
@@ -13,4 +15,3 @@ elif auswahl == "0":
     print("Programm beendet")
 else:
     print("Ungueltige Auswahl")
-    

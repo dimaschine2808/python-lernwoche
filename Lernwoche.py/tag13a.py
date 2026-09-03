@@ -1,3 +1,5 @@
+# Tag 13: Gelieferte Produkte zum Lagerbestand hinzufügen
+
 lager = {
     "Apfel": 3,
     "Milch": 1,
@@ -15,5 +17,3 @@ if produkte in lager:
         print("Bitte eine ganze Zahl eingeben. ")
 else:
     print("Produkte nicht im Lager.")
-
-         

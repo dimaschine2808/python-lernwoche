@@ -1,4 +1,6 @@
-import json 
+# Tag 14: Gelieferte Produkte laden, ergänzen und wieder speichern
+
+import json
 
 with open("Lernwoche.py/lager.json", "r", encoding="utf-8") as datei:
     lager = json.load(datei)

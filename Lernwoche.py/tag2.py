@@ -1,3 +1,5 @@
+# Tag 2: Zwei Zahlen einlesen und Grundrechenarten ausführen
+
 zahl1 = float(input("Erste Zahl: "))
 zahl2 = float(input("Zweite Zahl: "))
 

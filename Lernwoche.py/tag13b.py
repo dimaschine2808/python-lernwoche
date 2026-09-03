@@ -1,9 +1,10 @@
+# Tag 13: Mengen sicher einlesen und zum Lagerbestand addieren
+
 lager =  {
     "Apfel": 3,
     "Milch": 1,
     "Brot": 2,
 }
-
 produkt = input("Welches Produkt wurde geliefert? ")
 
 try:

@@ -1,9 +1,12 @@
+# Tag 9: Verschachtelte Listen durchlaufen und Zahlen einordnen
+
 gruppen = [
     [4, -3, 0],
     [7, -8, 12],
     [-5, 2, 9]
 ]
 
+# Eine einzelne Zahl als gerade oder ungerade ausgeben
 def geradeORungerade(zahl):
 
     return zahl % 2 == 0 

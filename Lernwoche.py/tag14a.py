@@ -1,3 +1,5 @@
+# Tag 14: Einen Lagerbestand in einer JSON-Datei speichern
+
 import json
 
 lager = {

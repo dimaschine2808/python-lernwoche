@@ -1,3 +1,5 @@
+# Tag 12: Schlüssel und Werte eines Dictionarys gemeinsam ausgeben
+
 einkauf = {
     "Apfel": 3,
     "Milch": 1,

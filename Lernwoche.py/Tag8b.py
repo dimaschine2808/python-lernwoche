@@ -1,3 +1,5 @@
+# Tag 8: Gerade Zahlen mit einer Funktion erkennen
+
 def ist_gerade(zahl):
     return zahl % 2 == 0
 

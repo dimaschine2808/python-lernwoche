@@ -1,3 +1,5 @@
+# Tag 11: Eine Einkaufsliste erfassen und in eine Datei schreiben
+
 liste = []
 
 
@@ -11,6 +13,3 @@ with open("einkaufsliste.txt", "w", encoding="utf-8") as datei:
         datei.write(produkt + "\n")
 
 print("Einkaufsliste gespeichert!")
-
-
-    

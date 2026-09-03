@@ -1,3 +1,5 @@
+# Tag 8: Eine Funktion mit Parametern und Rückgabewert verwenden
+
 def multipliziere(a, b):
     ergebnis = a * b 
     return ergebnis 

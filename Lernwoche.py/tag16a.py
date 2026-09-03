@@ -1,9 +1,13 @@
+# Tag 16: Das Speichern des Lagerbestands in eine Funktion auslagern
+
 import json
 
+# Lagerbestand in einer JSON-Datei speichern
 def lager_speichern(lager):
     with open("Lernwoche.py/lager_test.json", "w", encoding="utf-8") as file:
         json.dump(lager, file, ensure_ascii=False, indent=4)
 
+# Hauptprogramm: Beispieldaten speichern
 lager = {
     "Apfel": 5,
     "Milch": 2

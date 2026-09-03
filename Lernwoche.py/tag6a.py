@@ -1,3 +1,5 @@
+# Tag 6: Wörter in einem Dictionary suchen und alle Paare ausgeben
+
 vokabeln = {"Blume":  "Flower", "Auto": "Car", "Tisch": "Desk", "Turm": "Tower", "Katze": "Cat"}
 
 wort= input("Was ist das Wort? ")

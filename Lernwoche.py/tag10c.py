@@ -1,3 +1,5 @@
+# Tag 10: Noteneingaben prüfen und die Liste auswerten
+
 Noten = []
 
 #Zeugnisausgabe

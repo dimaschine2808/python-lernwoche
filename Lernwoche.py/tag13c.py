@@ -1,3 +1,5 @@
+# Tag 13: Produkte nur bei ausreichendem Bestand entnehmen
+
 lager = {
     "Apfel": 3,
     "Milch": 1,

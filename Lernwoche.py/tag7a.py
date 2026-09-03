@@ -1,3 +1,5 @@
+# Tag 7: Eine Einkaufsliste bis zum Abbruchwort erweitern
+
 liste = ["Apfel", "Birne", "Brot"]
 
 while True: 

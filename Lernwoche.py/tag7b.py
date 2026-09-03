@@ -1,3 +1,5 @@
+# Tag 7: Zahlen sammeln und statistisch auswerten
+
 zahl = []
 
 while True:

@@ -1,3 +1,5 @@
+# Tag 12: Vor dem Zugriff prüfen, ob ein Schlüssel existiert
+
 einkauf = {
     "Apfel": 3,
     "Milch": 1, 

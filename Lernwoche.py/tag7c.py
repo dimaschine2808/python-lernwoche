@@ -1,3 +1,5 @@
+# Tag 7: Noten validieren, sammeln und auswerten
+
 Noten = []
 
 #Zeugnisausgabe

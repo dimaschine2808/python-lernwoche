@@ -1,3 +1,5 @@
+# Tag 10: Eingabefehler abfangen und Zahlen nach Gerade/Ungerade trennen
+
 def istGerade(zahl):
     return zahl % 2 == 0
 

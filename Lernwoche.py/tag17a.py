@@ -1,6 +1,9 @@
+# Tag 17: Produkt und Menge über Benutzereingaben erfassen
+
 import json
 
 
+# Lagerbestand laden und mögliche Dateifehler abfangen
 def lager_laden():
     try:
         with open("Lernwoche.py/lager.json", "r", encoding="utf-8") as file:
@@ -11,17 +14,20 @@ def lager_laden():
         return {}
 
 
+# Lagerbestand in einer JSON-Datei speichern
 def lager_speichern(lager):
     with open("Lernwoche.py/lager_test.json", "w", encoding="utf-8") as file:
         json.dump(lager, file, ensure_ascii=False, indent=4)
 
 
+# Produkt neu anlegen oder vorhandenen Bestand erhöhen
 def produkt_hinzufuegen(lager, produkt, menge):
     lager[produkt] = lager.get(produkt, 0) + menge 
 
 
 
 
+# Hauptprogramm: Produktdaten einlesen und speichern
 lager = lager_laden()
 produkt = input("Welches Produkt moechstest du hinzufuegen? ")
 menge = int(input("Welche Menge moechtest du hinzufuegen? "))

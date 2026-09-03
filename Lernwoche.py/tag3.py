@@ -1,3 +1,5 @@
+# Tag 3: Eine Zahl als positiv, negativ oder null einordnen
+
 zahl = float(input("Geben Sie eine Zahl ein:"))
 
 if zahl > 0:

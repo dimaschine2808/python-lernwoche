@@ -1,3 +1,5 @@
+# Tag 10: Zahleneingaben prüfen und gerade Zahlen sammeln
+
 def istGerade(zahl):
     return zahl % 2 == 0
 
