@@ -295,6 +295,18 @@ Entsteht, wenn Python am angegebenen Pfad keine Datei findet. Bei relativen Pfad
 Bedeutet, dass Änderungen nach dem Programmende erhalten bleiben. Dafür gilt hier die Reihenfolge: laden, verändern, speichern.
 
 
+## Tag 19
+
+**not in** (nicht enthalten)
+Prüft, ob ein Wert nicht in einer Sammlung vorhanden ist. `produkt not in lager` erkennt ein unbekanntes Produkt.
+
+**boolean return value** (boolescher Rückgabewert)
+Eine Funktion gibt `True` für Erfolg und `False` für Misserfolg zurück. Der aufrufende Code kann damit entscheiden, ob anschließend gespeichert werden soll.
+
+**guard clause** (frühe Abbruchprüfung)
+Eine ungültige Situation wird am Anfang einer Funktion geprüft und mit `return` beendet. Dadurch bleibt der erfolgreiche Ablauf übersichtlich.
+
+
 ---
 
 ## Rund um Git & GitHub

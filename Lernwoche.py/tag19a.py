@@ -1,4 +1,4 @@
-# Lagerverwaltung mit dauerhafter Speicherung
+# Tag 19: Produkte sicher entnehmen und negativen Bestand verhindern
 
 import json
 from pathlib import Path
@@ -100,3 +100,7 @@ while True:
         break
     else:
         print("Ungueltige Auswahl")
+
+
+
+
